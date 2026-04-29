@@ -1,9 +1,3 @@
-class GeometryVisualizerError(Exception):
-    """Base exception for application-specific errors."""
-
-    pass
-
-
 class InvalidInputError(ValueError):
     """Raised when user input cannot be converted to a valid number."""
 
