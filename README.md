@@ -85,3 +85,44 @@ ___
 - **Shapely** - геометрические операции и преобразования
 
 ---
+
+## Установка и запуск
+
+### 1. Клонировать репозиторий
+
+```bash
+git clone https://github.com/Ozh-icha-gluth-izh-sol/Analytical-Geometry-Visualizer.git
+cd Analytical-Geometry-Visualizer
+```
+
+### 2. Создать виртуальное окружение
+
+```bash
+python3 -m venv venv_scraping
+```
+
+### 3. Активировать виртуальное окружение
+
+На macOS/Linux:
+
+```bash
+source venv_scraping/bin/activate
+```
+
+На Windows:
+
+```bash
+venv_scraping\Scripts\activate
+```
+
+### 4. Установить зависимости
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Запустить приложение
+
+```bash
+python main.py
+```
