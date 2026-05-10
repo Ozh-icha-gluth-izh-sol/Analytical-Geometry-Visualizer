@@ -81,9 +81,6 @@ ___
 - **tkinter** — работа с Canvas и базовая графика
 - **CustomTkinter** — улучшенный графический интерфейс
 - **NumPy** — математические вычисления
-- **SymPy** - работа с функциями
-- **Shapely** - геометрические операции и преобразования
-
 ---
 
 ## Установка и запуск
@@ -121,8 +118,32 @@ venv_scraping\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 5. Запустить приложение
+### 5. Запуск приложения
 
 ```bash
 python main.py
 ```
+
+### 6. Запуск тестов
+```bash
+pytest -v
+```
+
+### 7. Запуск профайлинга
+```bash
+python scripts/profile_project.py
+```
+
+**Результат будет лежать в** 
+
+```bash
+reports/profiling_report.md
+```
+### Запуск через Docker образ
+
+```bash
+docker build -t geometry-visualizer .
+docker run --rm geometry-visualizer
+```
+
+
