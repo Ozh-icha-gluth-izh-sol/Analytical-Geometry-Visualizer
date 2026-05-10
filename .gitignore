@@ -1,0 +1,14 @@
+venv/
+venv_scraping/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+reports/
+.git/
+.idea/
+.vscode/
+.DS_Store
